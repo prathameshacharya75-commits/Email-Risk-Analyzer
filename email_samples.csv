@@ -1,0 +1,81 @@
+MessageID,From,ReplyTo,Subject,SPF,DKIM,HasAttachment,BodyLinkDomain,ExpectedLabel,PrimaryIndicator
+MSG-0001,sender0@example.com,sender0@example.com,Urgent account review required,softfail,fail,Yes,account-check.invalid,Medium,suspicious attachment
+MSG-0002,sender1@example.com,sender1@example.com,Urgent account review required,pass,none,No,account-check.invalid,Medium,urgent language
+MSG-0003,sender2@example.com,sender2@example.com,Urgent account review required,none,pass,Yes,account-check.invalid,Medium,suspicious attachment
+MSG-0004,sender3@example.com,sender3@example.com,Urgent account review required,fail,none,No,account-check.invalid,High,display-name mismatch
+MSG-0005,sender4@example.com,reply4@example.net,Urgent account review required,fail,pass,No,account-check.invalid,Medium,reply-to mismatch
+MSG-0006,sender5@example.com,sender5@example.com,Urgent account review required,none,fail,No,account-check.invalid,High,display-name mismatch
+MSG-0007,sender6@example.com,sender6@example.com,Urgent account review required,none,pass,Yes,account-check.invalid,Medium,suspicious attachment
+MSG-0008,sender7@example.com,reply7@example.net,Urgent account review required,none,pass,No,account-check.invalid,High,reply-to mismatch
+MSG-0009,sender8@example.com,sender8@example.com,Urgent account review required,pass,none,No,account-check.invalid,High,urgent language
+MSG-0010,sender9@example.com,sender9@example.com,Urgent account review required,none,fail,No,account-check.invalid,High,display-name mismatch
+MSG-0011,sender10@example.com,sender10@example.com,Urgent account review required,softfail,fail,Yes,account-check.invalid,Medium,suspicious attachment
+MSG-0012,sender11@example.com,reply11@example.net,Urgent account review required,softfail,none,No,account-check.invalid,Medium,reply-to mismatch
+MSG-0013,sender12@example.com,sender12@example.com,Urgent account review required,pass,fail,No,account-check.invalid,Medium,urgent language
+MSG-0014,sender13@example.com,sender13@example.com,Urgent account review required,pass,fail,No,account-check.invalid,High,urgent language
+MSG-0015,sender14@example.com,sender14@example.com,Urgent account review required,fail,pass,No,account-check.invalid,Medium,display-name mismatch
+MSG-0016,sender15@example.com,sender15@example.com,Urgent account review required,pass,none,No,account-check.invalid,High,urgent language
+MSG-0017,sender16@example.com,sender16@example.com,Urgent account review required,pass,fail,No,account-check.invalid,High,urgent language
+MSG-0018,sender17@example.com,sender17@example.com,Urgent account review required,softfail,pass,No,account-check.invalid,High,lookalike domain
+MSG-0019,sender18@example.com,sender18@example.com,Urgent account review required,softfail,fail,Yes,account-check.invalid,High,suspicious attachment
+MSG-0020,sender19@example.com,reply19@example.net,Urgent account review required,none,fail,No,account-check.invalid,High,reply-to mismatch
+MSG-0021,sender20@example.com,sender20@example.com,Urgent account review required,softfail,fail,No,account-check.invalid,Medium,display-name mismatch
+MSG-0022,sender21@example.com,reply21@example.net,Urgent account review required,none,pass,No,account-check.invalid,High,reply-to mismatch
+MSG-0023,sender22@example.com,sender22@example.com,Urgent account review required,fail,pass,Yes,account-check.invalid,Medium,suspicious attachment
+MSG-0024,sender23@example.com,sender23@example.com,Urgent account review required,none,none,No,account-check.invalid,Medium,lookalike domain
+MSG-0025,sender24@example.com,reply24@example.net,Urgent account review required,softfail,none,No,account-check.invalid,High,reply-to mismatch
+MSG-0026,sender25@example.com,sender25@example.com,Urgent account review required,softfail,pass,Yes,account-check.invalid,Medium,suspicious attachment
+MSG-0027,sender26@example.com,sender26@example.com,Urgent account review required,fail,none,No,account-check.invalid,Medium,lookalike domain
+MSG-0028,sender27@example.com,sender27@example.com,Account update,pass,pass,No,portal.example.com,Low,safe
+MSG-0029,sender28@example.com,sender28@example.com,Account update,pass,pass,No,portal.example.com,Low,safe
+MSG-0030,sender29@example.com,sender29@example.com,Urgent account review required,fail,fail,No,account-check.invalid,Medium,lookalike domain
+MSG-0031,sender30@example.com,reply30@example.net,Urgent account review required,none,none,No,account-check.invalid,Medium,reply-to mismatch
+MSG-0032,sender31@example.com,sender31@example.com,Urgent account review required,pass,pass,No,account-check.invalid,Medium,urgent language
+MSG-0033,sender32@example.com,sender32@example.com,Urgent account review required,pass,pass,No,account-check.invalid,Medium,urgent language
+MSG-0034,sender33@example.com,sender33@example.com,Urgent account review required,pass,pass,No,account-check.invalid,High,urgent language
+MSG-0035,sender34@example.com,sender34@example.com,Urgent account review required,none,fail,No,account-check.invalid,Medium,lookalike domain
+MSG-0036,sender35@example.com,sender35@example.com,Urgent account review required,fail,none,No,account-check.invalid,High,lookalike domain
+MSG-0037,sender36@example.com,sender36@example.com,Urgent account review required,softfail,fail,Yes,account-check.invalid,Medium,suspicious attachment
+MSG-0038,sender37@example.com,reply37@example.net,Urgent account review required,fail,none,No,account-check.invalid,High,reply-to mismatch
+MSG-0039,sender38@example.com,sender38@example.com,Account update,pass,pass,No,portal.example.com,Low,safe
+MSG-0040,sender39@example.com,sender39@example.com,Urgent account review required,softfail,none,No,account-check.invalid,High,display-name mismatch
+MSG-0041,sender40@example.com,sender40@example.com,Urgent account review required,pass,none,No,account-check.invalid,High,urgent language
+MSG-0042,sender41@example.com,reply41@example.net,Urgent account review required,fail,none,No,account-check.invalid,Medium,reply-to mismatch
+MSG-0043,sender42@example.com,sender42@example.com,Urgent account review required,none,fail,No,account-check.invalid,Medium,display-name mismatch
+MSG-0044,sender43@example.com,sender43@example.com,Urgent account review required,none,fail,Yes,account-check.invalid,High,suspicious attachment
+MSG-0045,sender44@example.com,sender44@example.com,Urgent account review required,fail,none,Yes,account-check.invalid,High,suspicious attachment
+MSG-0046,sender45@example.com,sender45@example.com,Urgent account review required,none,none,No,account-check.invalid,High,lookalike domain
+MSG-0047,sender46@example.com,sender46@example.com,Urgent account review required,softfail,none,No,account-check.invalid,High,lookalike domain
+MSG-0048,sender47@example.com,sender47@example.com,Account update,pass,pass,No,portal.example.com,Low,safe
+MSG-0049,sender48@example.com,reply48@example.net,Urgent account review required,none,none,No,account-check.invalid,High,reply-to mismatch
+MSG-0050,sender49@example.com,sender49@example.com,Urgent account review required,none,none,No,account-check.invalid,High,display-name mismatch
+MSG-0051,sender50@example.com,sender50@example.com,Urgent account review required,fail,fail,No,account-check.invalid,High,display-name mismatch
+MSG-0052,sender51@example.com,sender51@example.com,Urgent account review required,none,fail,Yes,account-check.invalid,Medium,suspicious attachment
+MSG-0053,sender52@example.com,sender52@example.com,Urgent account review required,pass,pass,No,account-check.invalid,Medium,urgent language
+MSG-0054,sender53@example.com,reply53@example.net,Urgent account review required,none,none,No,account-check.invalid,Medium,reply-to mismatch
+MSG-0055,sender54@example.com,reply54@example.net,Urgent account review required,softfail,none,No,account-check.invalid,High,reply-to mismatch
+MSG-0056,sender55@example.com,sender55@example.com,Urgent account review required,fail,fail,No,account-check.invalid,High,display-name mismatch
+MSG-0057,sender56@example.com,reply56@example.net,Urgent account review required,none,fail,No,account-check.invalid,Medium,reply-to mismatch
+MSG-0058,sender57@example.com,sender57@example.com,Urgent account review required,fail,fail,No,account-check.invalid,Medium,display-name mismatch
+MSG-0059,sender58@example.com,sender58@example.com,Urgent account review required,none,none,No,account-check.invalid,High,lookalike domain
+MSG-0060,sender59@example.com,sender59@example.com,Urgent account review required,fail,pass,No,account-check.invalid,Medium,display-name mismatch
+MSG-0061,sender60@example.com,sender60@example.com,Urgent account review required,softfail,pass,Yes,account-check.invalid,Medium,suspicious attachment
+MSG-0062,sender61@example.com,sender61@example.com,Urgent account review required,none,fail,Yes,account-check.invalid,High,suspicious attachment
+MSG-0063,sender62@example.com,sender62@example.com,Urgent account review required,fail,pass,No,account-check.invalid,Medium,lookalike domain
+MSG-0064,sender63@example.com,reply63@example.net,Urgent account review required,fail,pass,No,account-check.invalid,Medium,reply-to mismatch
+MSG-0065,sender64@example.com,sender64@example.com,Urgent account review required,none,pass,No,account-check.invalid,High,lookalike domain
+MSG-0066,sender65@example.com,sender65@example.com,Account update,pass,pass,No,portal.example.com,Low,safe
+MSG-0067,sender66@example.com,sender66@example.com,Urgent account review required,softfail,fail,No,account-check.invalid,High,display-name mismatch
+MSG-0068,sender67@example.com,reply67@example.net,Urgent account review required,none,none,No,account-check.invalid,Medium,reply-to mismatch
+MSG-0069,sender68@example.com,sender68@example.com,Urgent account review required,pass,pass,No,account-check.invalid,High,urgent language
+MSG-0070,sender69@example.com,sender69@example.com,Urgent account review required,none,pass,No,account-check.invalid,Medium,display-name mismatch
+MSG-0071,sender70@example.com,sender70@example.com,Urgent account review required,none,pass,No,account-check.invalid,Medium,lookalike domain
+MSG-0072,sender71@example.com,sender71@example.com,Urgent account review required,softfail,pass,No,account-check.invalid,Medium,lookalike domain
+MSG-0073,sender72@example.com,sender72@example.com,Urgent account review required,softfail,fail,No,account-check.invalid,Medium,lookalike domain
+MSG-0074,sender73@example.com,reply73@example.net,Urgent account review required,none,pass,No,account-check.invalid,Medium,reply-to mismatch
+MSG-0075,sender74@example.com,sender74@example.com,Account update,pass,pass,No,portal.example.com,Low,safe
+MSG-0076,sender75@example.com,sender75@example.com,Account update,pass,pass,No,portal.example.com,Low,safe
+MSG-0077,sender76@example.com,sender76@example.com,Urgent account review required,none,pass,No,account-check.invalid,High,display-name mismatch
+MSG-0078,sender77@example.com,sender77@example.com,Account update,pass,pass,No,portal.example.com,Low,safe
+MSG-0079,sender78@example.com,reply78@example.net,Urgent account review required,none,fail,No,account-check.invalid,Medium,reply-to mismatch
+MSG-0080,sender79@example.com,sender79@example.com,Urgent account review required,pass,fail,No,account-check.invalid,High,urgent language
